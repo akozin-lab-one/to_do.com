@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <style>
+        h3 {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .input-box {
+            width: 500px;
+            height: 70px;
+            position: relative;
+            top: 30px;
+            left: 450px;
+            border-radius: 5%;
+            background-color: rgb(243, 250, 215);
+        }
+        
+        .text-box {
+            margin-top: 20px;
+            margin-left: 140px;
+        }
+        
+        .text-box input {
+            width: auto;
+            border-radius: 30px;
+        }
+        
+        .input-btn {
+            width: 80px;
+            height: 30px;
+            border-radius: 20px;
+            border-color: antiquewhite;
+            cursor: pointer;
+            font-style: oblique;
+        }
+        
+        .text-container {
+            background-color: grey;
+            width: 70%;
+            max-height: 200px;
+            position: relative;
+            top: 55px;
+            left: 16%;
+        }
+        
+        .text-list {
+            position: relative;
+            left: 500px;
+            top: 30px;
+        }
+        
+        .btn-active {
+            opacity: 10;
+            color: blue;
+        }
+        
+        .title {
+            display: inline-block;
+        }
+        
+        .btn {
+            display: inline-block;
+            margin-left: 170px;
+        }
+        
+        .edit-btn {
+            width: 100px;
+            height: 30px;
+            border-top-left-radius: 1px;
+            color: black;
+        }
+        
+        .del-btn {
+            width: 100px;
+            height: 30px;
+            border-radius: 1px;
+            color: black;
+        }
+        
+        .save-btn {
+            width: 100px;
+            height: 30px;
+            border-radius: 1px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>ToDoList</h3>
+        <div class="input-box">
+            <input type="text" name="" id="text" class="text-box">
+            <button class="input-btn" type="submit">Add</button>
+        </div>
+
+        <div class="text-list">
+        </div>
+    </div>
+</body>
+<script src="todo.js"></script>
+
+</html>
